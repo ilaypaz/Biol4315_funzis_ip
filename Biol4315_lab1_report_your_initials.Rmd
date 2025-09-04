@@ -30,6 +30,7 @@ plot(pressure)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
+```{r c1, eval=FALSE}
 install.packages("vegan")
 #i am going to load the gg plot2 and plot a scatter plot of 
 library(vegan)
@@ -39,3 +40,6 @@ ggplot(cars, aes(x = speed, y = dist)) +
   labs(title = "Scatter plot of speed vs dist",
        x = "Speed",
        y = "Distance")
+```
+
+
