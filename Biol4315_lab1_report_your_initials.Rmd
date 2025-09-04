@@ -32,7 +32,6 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 
 ```{r c1, eval=FALSE}
 install.packages("vegan")
-install.packages("ggplot2")
 ```
 i am going to load the gg plot2 and plot a scatter plot of 
 ```{r c2,}
