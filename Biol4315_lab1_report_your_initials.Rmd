@@ -34,7 +34,7 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 install.packages("vegan")
 ```
 i am going to load the gg plot2 and plot a scatter plot of 
-```{r c2, eval=FALSE}
+```{r c2,}
 library(vegan)
 library(ggplot2)
 ggplot(cars, aes(x = speed, y = dist)) +
